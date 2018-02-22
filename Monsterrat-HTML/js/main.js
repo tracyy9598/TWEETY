@@ -1,12 +1,12 @@
 /*-----------------------------------------------------------------------------------*/
-/* 		Mian Js Start 
+/* 		Mian Js Start
 /*-----------------------------------------------------------------------------------*/
 $(document).ready(function($) {
 "use strict"
 /*-----------------------------------------------------------------------------------*/
 /* 	TESTIMONIAL SLIDER
 /*-----------------------------------------------------------------------------------*/
-$(".testi-slide").owlCarousel({ 
+$(".testi-slide").owlCarousel({
     items : 1,
 	autoplay:true,
 	autoplayTimeout:5000,
@@ -19,7 +19,7 @@ $(".testi-slide").owlCarousel({
 /*-----------------------------------------------------------------------------------*/
 /* 	ABOUT SLIDER
 /*-----------------------------------------------------------------------------------*/
-$(".who-slide").owlCarousel({ 
+$(".who-slide").owlCarousel({
     items : 1,
 	autoplay:true,
 	autoplayTimeout:5000,
@@ -38,16 +38,20 @@ $('.progress-bars').waypoint(function() {
       width:$(this).attr('data-percent')
      },500);
 });},
-	{   
+	{
 	offset: '100%',
-    triggerOnce: true 
+    triggerOnce: true
 });});
+/*-----------------------------------------------------------------------------------*/
+/*    COPYRIGHT
+/*-----------------------------------------------------------------------------------*/
+$('.rights p').html("Copyright ©" + new Date().getFullYear() + " TWEETY");
 /*-----------------------------------------------------------------------------------*/
 /*    CONTACT FORM
 /*-----------------------------------------------------------------------------------*/
 function checkmail(input){
   var pattern1=/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-  	if(pattern1.test(input)){ return true; }else{ return false; }}     
+  	if(pattern1.test(input)){ return true; }else{ return false; }}
     function proceed(){
     	var name = document.getElementById("name");
 		var email = document.getElementById("email");
@@ -55,9 +59,9 @@ function checkmail(input){
 		var web = document.getElementById("website");
 		var msg = document.getElementById("message");
 		var errors = "";
-	if(name.value == ""){ 
+	if(name.value == ""){
 		name.className = 'error';
-	  	  return false;}    
+	  	  return false;}
 		  else if(email.value == ""){
 		  email.className = 'error';
 		  return false;}
@@ -73,7 +77,7 @@ function checkmail(input){
 		   else if(msg.value == ""){
 		        msg.className = 'error';
 		        return false;}
-		   else 
+		   else
 		  {
 	$.ajax({
 	type: "POST",
@@ -88,6 +92,3 @@ function checkmail(input){
          return true;
         }}});
 }};
-
-
-
