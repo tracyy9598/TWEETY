@@ -342,7 +342,7 @@ header .open-navigation .navi-in {
 }
 .navgation:hover .open-navigation {
 	opacity: 1;
-	width: 150px;
+	width: 200px;
 }
 .navgation:hover .navi-in {
 	display: block;
@@ -1581,8 +1581,8 @@ header .share .open-navigation {
 }
 .social_icons .instagram a:hover {
 	color: #fff;
-	background-color: #507ea4;
-	border-color: #507ea4;
+	background-color: #833ab4;
+	border-color: #833ab4;
 }
 .social_icons .lastfm a:hover {
 	color: #fff;
@@ -1593,6 +1593,11 @@ header .share .open-navigation {
 	color: #fff;
 	background-color: #0072b2;
 	border-color: #0072b2;
+}
+.social_icons .email a:hover {
+	color: #fff;
+	background-color: #ea4335;
+	border-color: #ea4335;
 }
 .social_icons .paypal a:hover {
 	color: #fff;
