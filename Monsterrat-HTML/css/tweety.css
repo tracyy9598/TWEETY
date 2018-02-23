@@ -38,3 +38,12 @@ div.img-spaced {
 .album-layout-tall {
   height:
 }
+
+.row-padding-md {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.img-relative {
+  position:relative;
+}
