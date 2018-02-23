@@ -343,6 +343,7 @@ header .open-navigation .navi-in {
 .navgation:hover .open-navigation {
 	opacity: 1;
 	width: 200px;
+	overflow: hidden;
 }
 .navgation:hover .navi-in {
 	display: block;
