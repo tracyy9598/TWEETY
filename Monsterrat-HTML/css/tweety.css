@@ -13,3 +13,19 @@
 .spacer {
   height: 20px;
 }
+
+.project-intro {
+  margin: 30px 0px 30px 0px;
+}
+
+.project-intro .title {
+  font-size: 18px;
+}
+
+.project-intro .body {
+  font-size: 13px;
+}
+
+.project-info p {
+  font-size: 13px;
+}
