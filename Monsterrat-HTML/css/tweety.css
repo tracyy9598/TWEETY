@@ -2,3 +2,14 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.spacer {
+  height: 20px;
+}
