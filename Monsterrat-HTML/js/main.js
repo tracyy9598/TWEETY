@@ -47,6 +47,13 @@ $('.progress-bars').waypoint(function() {
 /*-----------------------------------------------------------------------------------*/
 $('.rights p').html("Copyright ©" + new Date().getFullYear() + " TWEETY");
 /*-----------------------------------------------------------------------------------*/
+/*    CONTACT INFO
+/*-----------------------------------------------------------------------------------*/
+linkedInURL = "https://www.linkedin.com/in/tracy-yang";
+facebookURL = "https://www.facebook.com/tracy.yang.71";
+instagramURL = "https://www.instagram.com/tracyy9598";
+emailURL = "mailTo:tracyy9598@gmail.com";
+/*-----------------------------------------------------------------------------------*/
 /*    CONTACT FORM
 /*-----------------------------------------------------------------------------------*/
 function checkmail(input){
