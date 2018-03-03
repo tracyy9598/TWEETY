@@ -109,22 +109,26 @@
 
 	nav.querySelector(".next").addEventListener('click', function(event) {
 		event.preventDefault();
+    skipNextCycle = true;
 		nextSlide();
 		updateNavColor();
 	});
 
 	nav.querySelector(".prev").addEventListener("click", function(event) {
 		event.preventDefault();
+    skipNextCycle = true;
 		prevSlide();
 		updateNavColor();
 	});
 
   //autoUpdate
   setInterval(function() {
-    if (autoUpdate) {
+    if (autoUpdate && !skipNextCycle) {
       nextSlide();
       updateNavColor();
+      console.log("Ran");
     };
+    skipNextCycle = false;
 	},timeTrans);
 
 })();
