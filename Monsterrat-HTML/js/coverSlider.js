@@ -1,7 +1,8 @@
 (function() {
 
   var autoUpdate = true,
-      timeTrans = 4000;
+      timeTrans = 4000,
+      skipNextCycle = false;
 
 	var cdSlider = document.querySelector('.cd-slider'),
 		item = cdSlider.querySelectorAll("li"),
