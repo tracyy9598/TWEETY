@@ -80,6 +80,11 @@ a {
 	z-index: 2;
 	max-width: 45%;
 }
+.content img {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
 blockquote p {
 	font-size: 4rem;
 	margin-bottom: 2rem;
